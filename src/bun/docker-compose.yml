@@ -1,0 +1,6 @@
+version: "2023.7.5"
+services:
+  stratus:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
