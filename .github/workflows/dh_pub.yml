@@ -39,7 +39,11 @@ jobs:
         run: PATH=./:$PATH bash ./shx build
       - name: Build and push the Deno runtime
         run: PATH=./:$PATH bash ./shx submit deno
-      - name: Build and push the Bun runtime
-        run: PATH=./:$PATH bash ./shx submit bun
       - name: Build and push the Node runtime
         run: PATH=./:$PATH bash ./shx submit node
+      - name: Build and push the Deno edge runtime
+        run: PATH=./:$PATH bash ./shx submit denonext
+      - name: Build and push the Node edge runtime
+        run: PATH=./:$PATH bash ./shx submit nodenext
+      - name: Build and push the Bun runtime
+        run: PATH=./:$PATH bash ./shx submit bun
