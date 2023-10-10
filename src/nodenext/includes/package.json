@@ -1,0 +1,30 @@
+{
+	"name": "ltgc-stratus",
+	"type": "module",
+	"homepage": "https://github.com/ltgcgo/stratus",
+	"bugs": {
+		"url": "https://github.com/ltgcgo/stratus/issues"
+	},
+	"license": "GPL-3.0-or-later",
+	"author": "Lumière Élevé (https://github.com/PoneyClairDeLune)",
+	"funding": [
+		{
+			"type": "individual",
+			"url": "https://github.com/PoneyClairDelune"
+		}
+	],
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"os": [
+		"linux"
+	],
+	"cpu": [
+		"x64",
+		"arm64"
+	],
+	"dependencies": {
+		"undici": "^5.21.0",
+		"ws": "^8.12.0"
+	}
+}

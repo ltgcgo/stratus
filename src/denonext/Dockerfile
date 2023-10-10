@@ -1,5 +1,5 @@
-FROM docker.io/alpine:edge
-#FROM docker.io/frolvlad/alpine-glibc:latest
+#FROM docker.io/alpine:latest
+FROM docker.io/frolvlad/alpine-glibc:latest
 
 WORKDIR /root
 
